@@ -19,16 +19,43 @@ html,body{
     display: flex;
     background-color:   #bdc3c7;
     width: 100%;
-    height: 100px;
+    height: 70px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+/*Icon menu,panier,users*/
+.icon-btn{
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+}
+
+#Users{
+    font-size: 30px;
+}
+
+#burger-menu{
+    width: 20px;
+    height: 20px;
+}
+
+#search{
+    width: 150px;
+}
+
 #registerContent{
     flex-grow: 1;
     display: flex;
     align-items: center;
     flex-direction: column; 
+    margin: 10px auto;
+}
+
+#submit{
+    width: 90px;
+    height: 30px;
 }
 
 #loginContent{
@@ -36,6 +63,12 @@ html,body{
     display: flex;
     align-items: center;
     flex-direction: column; 
+    margin: 10px auto;
+}
+
+#submitLogin{
+    width: 90px;
+    height: 30px;
 }
 
 /*footer*/
