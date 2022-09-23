@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <script src="https://kit.fontawesome.com/fa139b36fe.js"crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
@@ -10,33 +10,42 @@
   </head>
   <body>
     <div id="header">
-      <i class="fa-solid fa-bars" id="burger-menu"></i>
+      <button class="icon-btn"><i class="fa-solid fa-bars"></i></button>
       <h2>Pierre&Compagnie</h2>
       <nav>
-        <i class="fa-regular fa-user" id="users"></i>
-        <i class="fa-solid fa-cart-shopping" id="cart"></i>
+        <button class="icon-btn"><i class="fa-regular fa-user" id="users"></i></button>
+        <button class="icon-btn"><i class="fa-solid fa-cart-shopping" id="cart"></i></button>
       </nav>
     </div>
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>PANIER</p>
+  </div>
+
+</div>
     <div id="nav">
       <input type="text" id="search" />
       <i class="fa-solid fa-magnifying-glass"></i>
     </div>
     <div id="content-page">
-      <table class="tftable" border="1">
+      <table class="tftable" cellspacing="5">
         <tr>
           <th><img src="assets/images/Saphir.jpg" class="articles" /></th>
-          <th><img src="assets/images/Saphir.jpg" class="articles" /></th>
-          <th><img src="assets/images/Saphir.jpg" class="articles" /></th>
+          <th><img src="assets/images/amethyste.jpg" class="articles" /></th>
+          <th><img src="assets/images/diamant.jpeg" class="articles" /></th>
         </tr>
         <tr>
-          <td><img src="assets/images/Saphir.jpg" class="articles" /></td>
-          <td><img src="assets/images/Saphir.jpg" class="articles" /></td>
-          <td><img src="assets/images/Saphir.jpg" class="articles" /></td>
+          <td><img src="assets/images/emeraude.jpg" class="articles" /></td>
+          <td><img src="assets/images" class="articles" /></td>
+          <td><img src="assets/images" class="articles" /></td>
         </tr>
         <tr>
-          <td><img src="assets/images/Saphir.jpg" class="articles" /></td>
-          <td><img src="assets/images/Saphir.jpg" class="articles" /></td>
-          <td><img src="assets/images/Saphir.jpg" class="articles" /></td>
+          <td><img src="assets/images" class="articles" /></td>
+          <td><img src="assets/images" class="articles" /></td>
+          <td><img src="assets/images" class="articles" /></td>
         </tr>
       </table>
     </div>
