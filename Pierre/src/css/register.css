@@ -1,0 +1,58 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+   }
+
+#header{
+    top: 0;
+    display: flex;
+    background-color:   #bdc3c7;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#registerContent{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#loginContent{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+/*footer*/
+
+footer{
+    background-color:  #bdc3c7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+footer li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+footer li a:hover{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(19, 125, 139);
+}

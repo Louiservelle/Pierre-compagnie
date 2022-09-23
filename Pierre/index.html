@@ -10,28 +10,20 @@
   </head>
   <body>
     <div id="header">
-      <button class="icon-btn"><i class="fa-solid fa-bars"></i></button>
-      <h2>Pierre&Compagnie</h2>
+      <button class="icon-btn"><i class="fa-solid fa-bars"></i></button><a href="index.html" class="logo"><h2>Pierre&Compagnie</h2></a>
+      
       <nav>
-        <button class="icon-btn"><i class="fa-regular fa-user" id="users"></i></button>
-        <button class="icon-btn"><i class="fa-solid fa-cart-shopping" id="cart"></i></button>
+        <a href="register.html"><button class="icon-btn" id="usr"><i class="fa-regular fa-user" id="users"></i></button></a>
+        <button class="icon-btn" id="crt"><i class="fa-solid fa-cart-shopping" id="cart"></i></button>
       </nav>
     </div>
 
-<div id="myModal" class="modal">
-
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>PANIER</p>
-  </div>
-
-</div>
     <div id="nav">
-      <input type="text" id="search" />
       <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" id="search" />
     </div>
     <div id="content-page">
-      <table class="tftable" cellspacing="5">
+      <table class="tftable" cellspacing="5" border="1">
         <tr>
           <th><img src="assets/images/Saphir.jpg" class="articles" /></th>
           <th><img src="assets/images/amethyste.jpg" class="articles" /></th>
@@ -50,13 +42,22 @@
       </table>
     </div>
     <footer>
-      <ul>
-        <li>lien</li>
-        <li>lien</li>
-        <li>lien</li>
-        <li>lien</li>
-      </ul>
+        <li><a href="">Mention-Legal</a></li>
+        <li><a href="">A Propos</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">SAV</a></li>
     </footer>
+
+    <!--MODAL-->
+    <div id="myModal" class="modal">
+
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>PANIER</p>
+      </div>
+    </div>
+
+
     <script src="src/js/index.js"></script>
   </body>
 </html>

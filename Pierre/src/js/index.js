@@ -39,7 +39,7 @@ const users = () => {
     
 }
 
-let cart = document.getElementById("cart");
+let cart = document.getElementById("crt");
 
 let modal = document.getElementById("myModal");
 // Get the <span> element that closes the modal
