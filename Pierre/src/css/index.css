@@ -71,6 +71,7 @@ footer{
     padding: 10px;
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 footer li a{
     text-decoration: none;
@@ -84,6 +85,7 @@ footer li a:hover{
 }
 
  /* The Modal*/
+
  .modal {
     display: none;
     position: fixed;
@@ -103,7 +105,8 @@ footer li a:hover{
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 20%;
+    height: 500px;
   }
   
   /* The Close Button */

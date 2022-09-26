@@ -19,7 +19,7 @@ class Users {
         this.picture_p = picture_p
     }
     getUsers(){
-
+      
     }
 }
 class Panier {
@@ -38,6 +38,8 @@ const users = () => {
     let users = document.getElementById("users");
     
 }
+
+
 
 let cart = document.getElementById("crt");
 
